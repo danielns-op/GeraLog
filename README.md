@@ -24,6 +24,7 @@ Saida gravada no log:
 | Funções disponíveis | Descrição |
 | --- | --- |
 | grava_info | Utilizado para gravar informações referente a execução. |
-| grava_warning | Utilizado para gravar alertas referente a execução. |
-| grava_error | Utilizado para gravar errors referente a execução. |
-| grava_critical | Utilizado para gravar mensagens criticas referente a execução. |
+| grava_warning | Uma indicação de que algo inesperado aconteceu, ou indicativo de algum problema. |
+| grava_error | Um erro grave, indicando que o próprio programa pode não conseguir continuar em execução. |
+| grava_critical | Devido a um problema mais sério, o software não conseguiu executar algumas funções. |
+| grava_debug | Informações detalhadas, normalmente de interesse apenas ao diagnosticar problemas. |
