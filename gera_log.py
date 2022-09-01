@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 # gera_log.py ------------------------------------------------------- #
 # ------------------------------------------------------------------- #
-# Author: Daniel Noronha da Silva C012743                             #
-#  Phone: +5585987680611                                              #
+# Author: Daniel Noronha da Silva                                     #
+# LinkedIn: https://www.linkedin.com/in/dndas/                        #
 # ------------------------------------------------------------------- #
 # Programa criado para ser uma forma simples de gerar logs das        #
 # aplicações criadas em python.                                       #
