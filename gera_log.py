@@ -74,5 +74,17 @@ class GeraLog:
 
     logger = logging.getLogger()
     logger.critical(mensagem)
+   
+  def grava_debug(self, mensagem):
+    log_format = "%(levelname)s %(asctime)s - %(message)s"
+    logging.basicConfig(
+      filename=self.log_file,
+      filemode=self.filemode,
+      format=log_format,
+      level=logging.DEBUG
+    )
+
+    logger = logging.getLogger()
+    logger.debug(mensagem)
 
 # ------------------------------------------------------------------- #
